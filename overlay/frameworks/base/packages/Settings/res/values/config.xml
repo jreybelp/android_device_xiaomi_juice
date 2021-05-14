@@ -11,9 +11,6 @@
  3 = right side --> 
 <integer name="config_fingerprintSensorLocation">3</integer> 
 
-<!-- Whether to show min/max refresh rate in display settings --> 
-<bool name="config_supportsRefreshRateSwitch">true</bool>
-
 <!-- Smartcharging -->
 <bool name="config_supportSmartCharging">true</bool>
 </resources> 
