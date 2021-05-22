@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.1 \
     vendor.qti.hardware.perf@2.2
 
+# Prebuilds
+PRODUCT_PACKAGES += \
+    Gcamgo
+
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
