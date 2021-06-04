@@ -7,8 +7,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiagl \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
-    ro.config.avoid_gfx_accel=true
-    
+    ro.config.avoid_gfx_accel=true \
+    ro.surface_flinger.running_without_sync_framework=true
+
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc_overlays=1
