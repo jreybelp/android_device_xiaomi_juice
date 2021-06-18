@@ -2,7 +2,7 @@
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=0
+    debug.sf.latch_unsignaled=1
     
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
