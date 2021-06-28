@@ -1,6 +1,6 @@
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
-    debug.hwui.renderer=skiavk \
+    debug.hwui.renderer=skiagl \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     ro.config.avoid_gfx_accel=true
