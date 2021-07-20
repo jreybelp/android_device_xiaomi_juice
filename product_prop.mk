@@ -21,3 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.disable.power.collapse=0 \
     power.saving.mode=1 \
     pm.sleep_mode=1
+
+# Disable Rescue Party
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.disable_rescue=true \
+    persist.device_config.configuration.disable_rescue_party=true
