@@ -4,3 +4,7 @@ persist.sensor.                u:object_r:sensors_prop:s0
 vendor.camera.       u:object_r:vendor_camera_prop:s0
 persist.camera.      u:object_r:vendor_camera_prop:s0
 ro.product.system.manufacturer u:object_r:exported2_default_prop:s0
+
+# Accent Picker
+persist.sys.theme.accentcolor                 u:object_r:theme_prop:s0
+persist.sys.theme.gradientcolor               u:object_r:theme_prop:s0
