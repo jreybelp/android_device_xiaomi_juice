@@ -13,13 +13,14 @@ ANCIENT_GAPPS=true
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ancietn_juice
+PRODUCT_NAME := ancient_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115
