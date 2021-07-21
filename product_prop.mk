@@ -8,7 +8,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     ro.config.avoid_gfx_accel=true \
-    ro.surface_flinger.running_without_sync_framework=true
+    ro.surface_flinger.running_without_sync_framework=true \
+    ro.surface_flinger.use_context_priority=true \
+    debug.sf.disable_backpressure=1 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
 
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -21,3 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.disable.power.collapse=0 \
     power.saving.mode=1 \
     pm.sleep_mode=1
+
+# Disable Rescue Party
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.disable_rescue=true \
+    persist.device_config.configuration.disable_rescue_party=true
