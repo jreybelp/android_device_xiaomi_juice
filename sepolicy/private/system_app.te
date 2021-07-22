@@ -6,3 +6,8 @@ get_prop(system_app, vendor_camera_prop);
 # Allow theme_prop to be read and set by Settings
 get_prop(system_app, theme_prop)
 set_prop(system_app, theme_prop)
+
+allow system_app vendor_sysfs_battery_supply:dir { search };
+allow system_app vendor_sysfs_battery_supply:file { read };
+allow system_app vendor_sysfs_battery_supply:file { open };
+allow system_app vendor_sysfs_battery_supply:file { getattr };
