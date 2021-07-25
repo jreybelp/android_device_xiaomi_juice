@@ -7,7 +7,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiagl \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
-    ro.config.avoid_gfx_accel=true \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.use_context_priority=true \
     debug.sf.disable_backpressure=1 \
