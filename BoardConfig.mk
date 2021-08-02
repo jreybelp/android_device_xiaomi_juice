@@ -53,6 +53,10 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # Display
 TARGET_USES_HWC2 := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+HEALTHD_USE_BATTERY_INFO := true
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
