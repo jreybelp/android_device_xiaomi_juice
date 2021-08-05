@@ -8,6 +8,11 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common ancient stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 TARGET_GAPPS_ARCH := arm64
 ANCIENT_GAPPS=true
 ANCIENT_OFFICIAL := true
