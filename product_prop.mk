@@ -22,6 +22,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=11
+
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc_overlays=1
