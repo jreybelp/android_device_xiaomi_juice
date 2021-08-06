@@ -33,6 +33,7 @@ using android::status_t;
 int main() {
     sp<ILight> service = new Light();
 
+    android::hardware::setMinSchedulerPolicy(service, SCHED_NORMAL, -20);
     configureRpcThreadpool(1, true);
 
     status_t status = service->registerAsService();
