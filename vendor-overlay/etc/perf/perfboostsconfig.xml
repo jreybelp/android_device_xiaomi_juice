@@ -132,7 +132,7 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="bengal"
-            Resources="0x41800000, 0x26, 0x40800000, 1800, 0x40800100, 1800, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1536, 0x40800100, 1612, 0x40C00000, 2" />
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="scuba"
             Resources="0x41800000, 0x8c, 0x40800000, 1800" />
@@ -146,7 +146,7 @@
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="bengal"
-            Resources="0x41800000, 0x26, 0x40800000, 1800, 0x40800100, 1800, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1536, 0x40800100, 1612, 0x40C00000, 2" />
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="scuba"
             Resources="0x41800000, 0x26, 0x40800000, 1800" />
@@ -160,7 +160,7 @@
         <!-- Type="4", Pre-Fling boost -->
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="bengal"
-            Resources="0x41800000, 0x26, 0x40800000, 1500, 0x40800100, 1500, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1536, 0x40800100, 1612, 0x40C00000, 2" />
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="scuba"
             Resources="0x41800000, 0x26, 0x40800000, 1500" />
