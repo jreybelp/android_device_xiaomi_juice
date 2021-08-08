@@ -353,21 +353,21 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
+    <ctl name="RX_RX0 Digital Volume" value="90" />
+    <ctl name="RX_RX1 Digital Volume" value="90" />
+    <ctl name="RX_RX2 Digital Volume" value="90" />
     <ctl name="HPHL Volume" value="20" />
     <ctl name="HPHR Volume" value="20" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
-    <ctl name="TX_DEC3 Volume" value="84" />
-    <ctl name="TX_DEC4 Volume" value="84" />
-    <ctl name="TX_DEC5 Volume" value="84" />
-    <ctl name="TX_DEC6 Volume" value="84" />
-    <ctl name="TX_DEC7 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="90" />
+    <ctl name="TX_DEC1 Volume" value="90" />
+    <ctl name="TX_DEC2 Volume" value="90" />
+    <ctl name="TX_DEC3 Volume" value="90" />
+    <ctl name="TX_DEC4 Volume" value="90" />
+    <ctl name="TX_DEC5 Volume" value="90" />
+    <ctl name="TX_DEC6 Volume" value="90" />
+    <ctl name="TX_DEC7 Volume" value="90" />
 
     <ctl name="ADC1 Volume" value="12" />
     <ctl name="ADC2 Volume" value="12" />
@@ -2051,16 +2051,16 @@
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="RX_CDC_DMA_RX_0 Port Mixer SLIM_8_TX" value="1" />
         <ctl name="RX_CDC_DMA_RX_0_DL_HL Switch" value="1" />
-        <ctl name="RX_RX0 Digital Volume" value="74" />
-        <ctl name="RX_RX1 Digital Volume" value="74" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX1 Digital Volume" value="84" />
     </path>
 
     <path name="play-fm headphones">
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="RX_CDC_DMA_RX_0 Port Mixer SLIM_8_TX" value="1" />
         <ctl name="RX_CDC_DMA_RX_0_DL_HL Switch" value="1" />
-        <ctl name="RX_RX0 Digital Volume" value="74" />
-        <ctl name="RX_RX1 Digital Volume" value="74" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX1 Digital Volume" value="84" />
     </path>
 
     <path name="play-fm headset">
@@ -3441,10 +3441,14 @@
 
     <path name="voice-dmic-ef-tmus">
         <path name="dmic-endfire" />
+        <ctl name="DEC7 Volume" value="97"/>
+        <ctl name="DEC8 Volume" value="97"/>
     </path>
 
     <path name="voice-dmic-ef">
         <path name="dmic-endfire" />
+        <ctl name="DEC7 Volume" value="97"/>
+        <ctl name="DEC8 Volume" value="97"/>
     </path>
 
     <path name="voice-speaker-dmic-ef">
@@ -3453,6 +3457,8 @@
 
     <path name="voice-rec-dmic-ef">
         <path name="dmic-endfire" />
+        <ctl name="DEC7 Volume" value="106"/>
+        <ctl name="DEC8 Volume" value="106"/>
     </path>
 
     <path name="voice-rec-dmic-ef-fluence">
@@ -3512,14 +3518,18 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
+        <ctl name="DEC7 Volume" value="89"/>
     </path>
 
     <path name="unprocessed-stereo-mic">
         <path name="voice-rec-dmic-ef" />
+        <ctl name="DEC7 Volume" value="89"/>
+        <ctl name="DEC8 Volume" value="89"/>
     </path>
 
     <path name="unprocessed-headset-mic">
         <path name="headset-mic" />
+        <ctl name="DEC7 Volume" value="89"/>
     </path>
 
     <!-- USB TTY start -->

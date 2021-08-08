@@ -18,29 +18,37 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee
 
-# Memory optimizations
+# Dex
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.sys.fw.bservice_enable=true \
-    ro.sys.fw.bservice_limit=5 \
-    ro.sys.fw.bservice_age=5000 \
-    ro.am.reschedule_service=true \
-    ro.sys.fw.bg_apps_limit=34 \
-    ro.config.fha_enable=true \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
+   pm.dexopt.ab-ota=extract \
+   pm.dexopt.install=speed-profile \
+   pm.dexopt.boot=extract \
+   pm.dexopt.first-boot=quicken \
+   dalvik.vm.dex2oat-cpu-set=0,1,5,6 \
+   dalvik.vm.dex2oat-threads=4 \
+   dalvik.vm.dex2oat-filter=quicken \
+   dalvik.vm.image-dex2oat-cpu-set=0,1,5,6 \
+   dalvik.vm.image-dex2oat-filter=quicken \
+   dalvik.vm.image-dex2oat-threads=4 \
+   ro.vendor.qti.am.reschedule_service=true \
+   ro.sys.fw.dex2oat_thread_count=8 \
+   dalvik.vm.boot-dex2oat-threads=8 \
+   dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+
+# LMKD
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.psi_complete_stall_ms=150 \
+    ro.lmk.low=1001 \
+    ro.lmk.medium=800 \
+    ro.lmk.critical=0 \
+    ro.lmk.critical_upgrade=false \
+    ro.lmk.upgrade_pressure=100 \
+    ro.lmk.downgrade_pressure=100 \
+    ro.lmk.swap_free_low_percentage=20 
 
 # Netflix custom property
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.netflix.bsp_rev=Q6115-31409-1
-
-# Scroll optimization
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.perf.scroll_opt=true
 
 # ZRAM
 PRODUCT_PROPERTY_OVERRIDES += \

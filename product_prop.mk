@@ -1,8 +1,3 @@
-# blurs
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1
-
 # Dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
@@ -18,9 +13,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.use_context_priority=true \
+    ro.surface_flinger.has_wide_color_display=false \
     debug.sf.disable_backpressure=1 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=11 \
+    vendor.audio.offload.buffer.size.kb=256
 
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \

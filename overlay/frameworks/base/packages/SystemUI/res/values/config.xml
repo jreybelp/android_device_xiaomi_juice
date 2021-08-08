@@ -34,4 +34,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Show battery icon in the QS Panel instead of in the header -->
     <bool name="config_batteryInQSPanel">false</bool>
 
+    <!-- Whether to clip notification contents with a rounded rectangle. Might be expensive on
+         certain GPU's and thus can be turned off with only minimal visual impact. -->
+    <bool name="config_notifications_round_rect_clipping">false</bool>
+
 </resources>
