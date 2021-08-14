@@ -96,6 +96,7 @@ on boot
 
 #xiong jiangxueqin To realize the communication between framework and thermal, we need to implement sys node in kernel
    chown system system /sys/class/thermal/thermal_message/sconfig
+   write /sys/class/thermal/thermal_message/sconfig 10
 
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "gsi"
