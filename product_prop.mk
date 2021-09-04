@@ -20,7 +20,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     vendor.display.disable_rotator_downscale=1 \
     ro.hardware.egl=adreno \
-    ro.hardware.vulkan=adreno
+    ro.hardware.vulkan=adreno \
+    debug.sf.enable_advanced_sf_phase_offset=1 \
+    debug.sf.high_fps_late_sf_phase_offset_ns=-4000000 \
+    debug.sf.high_fps_early_phase_offset_ns=-4000000 \
+    debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
