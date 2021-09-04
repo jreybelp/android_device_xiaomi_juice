@@ -14,6 +14,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
     debug.sf.recomputecrop=0 \
+    ro.surface_flinger.wcg_composition_dataspace=143261696 \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.use_context_priority=true \
     ro.surface_flinger.has_wide_color_display=false \
