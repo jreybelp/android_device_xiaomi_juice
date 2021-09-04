@@ -9,6 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiagl \
+    debug.sf.enable_gl_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sdm.support_writeback=0 \
     debug.enable.sglscale=1 \
