@@ -41,4 +41,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          certain GPU's and thus can be turned off with only minimal visual impact. -->
     <bool name="config_notifications_round_rect_clipping">false</bool>
 
+    <!-- Doze: does this device support STATE_DOZE?  --> 
+    <bool name="doze_display_state_supported">false</bool>
+
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+
 </resources>
