@@ -8,7 +8,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
-    debug.hwui.renderer=opengl \
+    debug.hwui.renderer=skiagl \
     debug.sf.latch_unsignaled=1 \
     debug.sdm.support_writeback=0 \
     debug.enable.sglscale=1 \
