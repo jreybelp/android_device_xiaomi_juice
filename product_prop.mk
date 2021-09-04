@@ -18,6 +18,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.use_context_priority=true \
     ro.surface_flinger.has_wide_color_display=false \
     debug.sf.disable_backpressure=1 \
+    vendor.display.disable_rotator_downscale=1 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
