@@ -23,9 +23,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
     debug.sf.enable_advanced_sf_phase_offset=1 \
-    debug.sf.high_fps_late_sf_phase_offset_ns=-4000000 \
-    debug.sf.high_fps_early_phase_offset_ns=-4000000 \
-    debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
+    debug.sf.high_fps_late_sf_phase_offset_ns=-2000000 \
+    debug.sf.high_fps_early_phase_offset_ns=-2000000 \
+    debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
