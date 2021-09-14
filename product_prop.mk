@@ -70,5 +70,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.kb_pad_port_r=8.0 \
     ro.com.google.ime.kb_pad_port_l=8.0 \
     ro.com.google.ime.kb_pad_port_b=1 \
-    ro.com.google.ime.kb_pad_land_r=96.0 \
-    ro.com.google.ime.kb_pad_land_l=96.0
+    ro.com.google.ime.kb_pad_land_r=32.0 \
+    ro.com.google.ime.kb_pad_land_l=32.0
