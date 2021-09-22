@@ -14,12 +14,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=opengl \
-    debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
-    ro.surface_flinger.running_without_sync_framework=true \
-    ro.surface_flinger.use_context_priority=true \
-    ro.surface_flinger.has_wide_color_display=false \
     debug.sf.disable_backpressure=1 \
+    debug.sf.disable_hwc_overlays=1 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
