@@ -17,6 +17,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1 \
     debug.sf.disable_hwc_overlays=1 \
+    debug.sdm.support_writeback=0 \
+    debug.enable.sglscale=1 \
+    debug.mdpcomp.logs=0 \
+    debug.sf.recomputecrop=0 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
