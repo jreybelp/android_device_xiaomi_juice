@@ -21,6 +21,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
     debug.sf.recomputecrop=0 \
+    vendor.display.disable_rotator_downscale=1 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
