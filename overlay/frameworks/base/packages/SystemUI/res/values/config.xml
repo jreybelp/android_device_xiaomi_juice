@@ -38,4 +38,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          certain GPU's and thus can be turned off with only minimal visual impact. -->
     <bool name="config_notifications_round_rect_clipping">false</bool>
 
+    <!-- Allow devices to enforce the H265 encoder for screen recordings -->
+    <bool name="config_useNewScreenRecEncoder">false</bool>
+
 </resources>
