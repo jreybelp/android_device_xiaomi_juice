@@ -2,11 +2,11 @@
  {
    "repository"  : "android_kernel_xiaomi_juice",
    "target_path" : "kernel/xiaomi/juice",
-   "branch"      : "eleven",
+   "branch"      : "eleven"
  },
  {
    "repository"  : "android_vendor_xiaomi_juice",
    "target_path" : "vendor/xiaomi/juice",
-   "branch"      : "eleven",
+   "branch"      : "eleven"
  }
 ]
