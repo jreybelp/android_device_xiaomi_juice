@@ -893,4 +893,8 @@
     <string name="config_adaptiveChargingSupspendValue" translatable="false">1</string>
     <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi-Juice</string>
+
 </resources>
+
