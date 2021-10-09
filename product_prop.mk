@@ -22,6 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.mdpcomp.logs=0 \
     debug.sf.recomputecrop=0 \
     vendor.display.disable_rotator_downscale=1 \
+    ro.surface_flinger.use_context_priority=true \
     ro.surface_flinger.has_wide_color_display=false \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
