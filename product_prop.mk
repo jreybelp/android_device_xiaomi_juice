@@ -28,8 +28,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.media_vol_steps=25 \
-    ro.config.vc_call_vol_steps=11 \
+    ro.config.media_vol_steps=15 \
     vendor.audio.offload.buffer.size.kb=256
 
 # Always use GPU for screen compositing
