@@ -63,7 +63,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Charger
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.charger.enable_suspend=true
+    ro.charger.enable_suspend=true \
+    persist.vendor.quick.charge=1
 
 # vendor
 PRODUCT_PROPERTY_OVERRIDES += \
