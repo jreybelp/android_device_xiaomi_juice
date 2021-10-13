@@ -18,6 +18,11 @@ BUILD_TYPE_IS_OFFICIAL := true
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Arcane Official
+ARCANE_OFFICIAL := true
+ARCANE_DEVICE := juice
+ARCANE_MAINTAINER := Don Joaquin
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_juice
 PRODUCT_DEVICE := juice
