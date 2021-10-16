@@ -20,9 +20,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/juice/juice-vendor.mk)
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt/conf
+    $(LOCAL_PATH)
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
@@ -51,10 +49,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     tinymix \
     libaudio-resampler
-
-# Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothQti
 
 # Camera
 PRODUCT_PACKAGES += \
