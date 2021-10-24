@@ -28,6 +28,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
+# IORap
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=15 \
