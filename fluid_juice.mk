@@ -24,4 +24,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:12/SP1A.210812.016.A1/7796139:user/release-keys"
