@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_juice.mk
+    $(LOCAL_DIR)/arrow_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_juice-user \
-    aosp_juice-userdebug \
-    aosp_juice-eng
+    arrow_juice-user \
+    arrow_juice-userdebug \
+    arrow_juice-eng
