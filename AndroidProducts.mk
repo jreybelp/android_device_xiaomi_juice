@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_juice.mk
+    $(LOCAL_DIR)/evolution_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_juice-user \
-    voltage_juice-userdebug \
-    voltage_juice-eng
+    evolution_juice-user \
+    evolution_juice-userdebug \
+    evolution_juice-eng
